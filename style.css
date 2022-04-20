@@ -1,0 +1,174 @@
+body {
+  font-family: "Cabin Sketch", cursive;
+}
+.giphy-image {
+  min-height: 50vh;
+  width: 50vh;
+  background-image: url(https://media.giphy.com/media/XCmuvmMhocMP1NF49Z/giphy.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.img1 {
+  min-height: 40vh;
+  width: 40vh;
+  background-image: url(https://youkaiya.jp/wp-content/uploads/2013/01/Hokusai_kappa.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.img2 {
+  min-height: 40vh;
+  width: 40vh;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/75dae2a5-2930-4789-a08c-ee83ee5adfd3/daewm6i-ca75f2cc-f940-49de-98fd-de10c32017a8.jpg/v1/fill/w_1024,h_1431,q_75,strp/feathered_serpent_by_thefraggdog_daewm6i-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTQzMSIsInBhdGgiOiJcL2ZcLzc1ZGFlMmE1LTI5MzAtNDc4OS1hMDhjLWVlODNlZTVhZGZkM1wvZGFld202aS1jYTc1ZjJjYy1mOTQwLTQ5ZGUtOThmZC1kZTEwYzMyMDE3YTguanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.qOocE9ipESAQsa1AIiuIC3HyhwuBG2LV06NK3I6RnxY);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.img3 {
+  min-height: 40vh;
+  width: 40vh;
+  background-image: url(https://i.pinimg.com/originals/7d/3d/80/7d3d8096df7b5847c9ab67822a47dfa0.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.img4 {
+  min-height: 40vh;
+  width: 40vh;
+  background-image: url(images/63c765f78f672b8ed5bd695011366567.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* Haetae images */
+
+.image1H {
+  min-height: 50vh;
+  width: 50vh;
+  background-image: url(https://i0.wp.com/epthinktank.eu/wp-content/uploads/2015/01/eprs-aag-545720-south-korea-political-landscape-final.png?fit=986%2C655&ssl=1);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/*
+Lord Ganesha images
+
+*/
+.image1L {
+  min-height: 50vh;
+  width: 50vh;
+  background-image: url(images/5a2a49580d870a8a73c6c5b75d5de2a2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 10%;
+}
+.image2L {
+  min-height: 50vh;
+  width: 50vh;
+  background-image: url(images/0172533873.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 10%;
+}
+.image3L {
+  min-height: 50vh;
+  width: 50vh;
+  background-image: url(images/1a561c13ab4cd4c740f68c5d245022f0.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 10%;
+}
+
+.image4L {
+  min-height: 50vh;
+  width: 50vh;
+  background-image: url(images/3000.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 10%;
+}
+.image5L {
+  min-height: 30vh;
+  width: 30vh;
+  background-image: url(images/enhanced-16275-1405302749-30.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 10%;
+}
+.image6L {
+  min-height: 30vh;
+  width: 30vh;
+  background-image: url(images/enhanced-19786-1405302707-18.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 10%;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100 100px;
+}
+
+.column {
+  margin-top: 10px;
+  margin-left: 150px;
+  vertical-align: middle;
+}
+header #thread3 {
+  top: 2.8em;
+  /* 	right:15px; */
+  border-color: #b7bf33;
+  -webkit-animation: thread2 6s infinite;
+  -moz-animation: thread2 6s infinite;
+  -o-animation: thread2 6s infinite;
+  animation: thread2 6s infinite;
+}
+
+hr.right {
+  left: auto;
+  right: 0px;
+}
+header {
+  margin: 2em 0 1em;
+  font-size: 12.2px;
+  text-align: center;
+  position: relative;
+}
+header hr {
+  display: block;
+
+  border-top: 2px solid green;
+  z-index: -1;
+  left: 0px;
+  width: 100%;
+}
