@@ -1,0 +1,252 @@
+body {
+  font-family: "Cabin Sketch", cursive;
+}
+
+h1 {
+  font-size: 1rem;
+}
+h2 {
+  font-size: 3rem;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+#scrollPath {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.05);
+}
+#progressbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+#progressbar:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  filter: blur(30px);
+}
+
+.giphy-image {
+  min-height: 50vh;
+  width: 50vh;
+  background-image: url(https://media.giphy.com/media/XCmuvmMhocMP1NF49Z/giphy.gif);
+  margin-left: auto;
+
+  margin-right: auto;
+
+  float: none;
+  background-size: 100%;
+  border-radius: 50%;
+}
+
+.img1 {
+  min-height: 50vh;
+  width: 40vh;
+  background-image: url(https://jessicacantlope.com/wp-content/uploads/2010/03/kappa_1.jpg);
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 200px;
+  border-radius: 10%;
+}
+
+.img2 {
+  min-height: 30vh;
+  width: 30vh;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/75dae2a5-2930-4789-a08c-ee83ee5adfd3/daewm6i-ca75f2cc-f940-49de-98fd-de10c32017a8.jpg/v1/fill/w_1024,h_1431,q_75,strp/feathered_serpent_by_thefraggdog_daewm6i-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTQzMSIsInBhdGgiOiJcL2ZcLzc1ZGFlMmE1LTI5MzAtNDc4OS1hMDhjLWVlODNlZTVhZGZkM1wvZGFld202aS1jYTc1ZjJjYy1mOTQwLTQ5ZGUtOThmZC1kZTEwYzMyMDE3YTguanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.qOocE9ipESAQsa1AIiuIC3HyhwuBG2LV06NK3I6RnxY);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20%;
+}
+
+.img3 {
+  min-height: 30vh;
+  width: 30vh;
+  background-image: url(https://i.pinimg.com/originals/7d/3d/80/7d3d8096df7b5847c9ab67822a47dfa0.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 40%;
+}
+
+.img4 {
+  min-height: 30vh;
+  width: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20%;
+}
+
+/*Kappa */
+.image1K {
+  min-height: 40vh;
+  width: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.image2k {
+  min-height: 20vh;
+  width: 40vh;
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  margin-bottom: 5px;
+}
+
+/* Haetae images */
+
+.image1H {
+  min-height: 50vh;
+  width: 50vh;
+  background-image: url(https://i0.wp.com/epthinktank.eu/wp-content/uploads/2015/01/eprs-aag-545720-south-korea-political-landscape-final.png?fit=986%2C655&ssl=1);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.image2H {
+  min-height: 40vh;
+  width: 70vh;
+  background-repeat: no-repeat;
+}
+
+.image3H {
+  min-height: 40vh;
+  width: 50vh;
+  background-repeat: no-repeat;
+  border-radius: 70%;
+}
+.image4H {
+  min-height: 67vh;
+  width: 90vh;
+}
+.image5H {
+  min-height: 30vh;
+  width: 50vh;
+}
+.image6H {
+  min-height: 30vh;
+  width: 50vh;
+  border-radius: 40%;
+}
+
+/*
+Lord Ganesha images
+
+*/
+.image1L {
+  min-height: 50vh;
+  width: 50vh;
+
+  background-size: 100%;
+  border: #00ffe7, 2px;
+}
+.image2L {
+  min-height: 50vh;
+  width: 50vh;
+
+  background-size: 100%;
+}
+.image3L {
+  min-height: 50vh;
+  width: 50vh;
+
+  background-size: 100%;
+}
+
+.image4L {
+  min-height: 50vh;
+  width: 50vh;
+
+  background-size: 100%;
+  border-radius: 70%;
+}
+
+.image5L {
+  min-height: 40vh;
+  width: 37vh;
+  background-size: 100%;
+}
+.image6L {
+  min-height: 40vh;
+  width: 40vh;
+  background-size: 100%;
+}
+
+ul {
+  list-style-type: circle;
+  text-align: center;
+}
+
+li {
+  margin: 0;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100 100px;
+}
+
+.column {
+  margin-top: 10px;
+  margin-left: 150px;
+  vertical-align: middle;
+}
+header #thread3 {
+  top: 2.8em;
+  /* 	right:15px; */
+  border-color: #b7bf33;
+  -webkit-animation: thread2 6s infinite;
+  -moz-animation: thread2 6s infinite;
+  -o-animation: thread2 6s infinite;
+  animation: thread2 6s infinite;
+}
+
+hr.right {
+  left: auto;
+  right: 0px;
+}
+header {
+  margin: 2em 0 1em;
+  font-size: 12.2px;
+  text-align: center;
+  position: relative;
+}
+header hr {
+  display: block;
+
+  border-top: 2px solid green;
+  z-index: -1;
+  left: 0px;
+  width: 100%;
+}
